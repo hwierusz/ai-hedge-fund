@@ -29,6 +29,8 @@ This system employs several agents working together:
 Note: the system does not actually make any trades.
 
 > **Personal note:** I forked this repo to study how multi-agent LLM systems can be applied to financial analysis. My main interest is comparing the outputs of value-oriented agents (Graham, Munger, Buffett) against growth-oriented ones (Cathie Wood, Fisher) across different market conditions.
+>
+> **Agents I find most interesting to compare:** Graham vs. Wood — their signals almost always diverge, which makes for a useful stress test of the portfolio manager's decision logic.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -42,13 +44,4 @@ This project is for **educational and research purposes only**.
 - Consult a financial advisor for investment decisions
 - Past performance does not indicate future results
 
-By using this software, you agree to use it solely for learning purposes.
-
-## Table of Contents
-- [How to Install](#how-to-install)
-- [How to Run](#how-to-run)
-  - [⌨️ Command Line Interface](#️-command-line-interface)
-  - [🖥️ Web Application](#️-web-application)
-- [How to Contribute](#how-to-contribute)
-- [Feature Requests](#feature-requests)
-- [License](#licens
+By using this software, you agree to use it solely for learning purpo
