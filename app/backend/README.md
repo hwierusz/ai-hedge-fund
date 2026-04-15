@@ -66,6 +66,8 @@ This will start the FastAPI server with hot-reloading enabled.
 The API will be available at:
 - API Endpoint: http://localhost:8001
 - API Documentation: http://localhost:8001/docs
+- Interactive Swagger UI: http://localhost:8001/docs
+- ReDoc alternative docs: http://localhost:8001/redoc
 
 ## API Endpoints
 
@@ -91,11 +93,14 @@ app/backend/
 └── main.py                   # FastAPI application entry point
 ```
 
+## Troubleshooting
+
+- If port 8001 is already in use, you can change it by passing a different `--port` value to uvicorn.
+- If you see import errors, make sure you're running uvicorn from the `app/backend` directory and that `poetry install` completed successfully from the root.
+
 ## Disclaimer
 
 This project is for **educational and research purposes only**.
 
 - Not intended for real trading or investment
-- No warranties or guarantees provided
-- Creator assumes no liability for financial losses
-- Cons
+- No warranties
