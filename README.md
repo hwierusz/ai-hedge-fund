@@ -31,6 +31,8 @@ Note: the system does not actually make any trades.
 > **Personal note:** I forked this repo to study how multi-agent LLM systems can be applied to financial analysis. My main interest is comparing the outputs of value-oriented agents (Graham, Munger, Buffett) against growth-oriented ones (Cathie Wood, Fisher) across different market conditions.
 >
 > **Agents I find most interesting to compare:** Graham vs. Wood — their signals almost always diverge, which makes for a useful stress test of the portfolio manager's decision logic.
+>
+> **Tickers I've been running this against:** NVDA, TSLA, BRK-B, and META — a mix of growth and value to keep the agent disagreements interesting.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -40,8 +42,4 @@ This project is for **educational and research purposes only**.
 
 - Not intended for real trading or investment
 - No investment advice or guarantees provided
-- Creator assumes no liability for financial losses
-- Consult a financial advisor for investment decisions
-- Past performance does not indicate future results
-
-By using this software, you agree to use it solely for learning purpo
+- Creator assumes no liability for financia
