@@ -95,12 +95,9 @@ app/backend/
 
 ## Troubleshooting
 
-- If port 8001 is already in use, you can change it by passing a different `--port` value to uvicorn.
-- If you see import errors, make sure you're running uvicorn from the `app/backend` directory and that `poetry install` completed successfully from the root.
-
-## Disclaimer
-
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No warranties
+- If port 8001 is already in use, you can specify a different port by changing the `--port` flag:
+  ```bash
+  poetry run uvicorn main:app --reload --port 8002
+  ```
+- If you encounter import errors, make sure you are running the server from the `app/backend` directory and that all dependencies are installed via `poetry install` from the root.
+- On macOS, port 5000 is often occupied by AirPlay Receiver — port 8001 was chosen to avoid this common conflict.
