@@ -34,6 +34,6 @@ Note: the system does not actually make any trades.
 >
 > **Tickers I've been running this against:** NVDA, TSLA, BRK-B, and META — a mix of growth and value to keep the agent disagreements interesting.
 >
-> **My default lookback window:** I changed the default analysis period from 3 months to 6 months to give value-oriented agents more data to work with — short windows tend to underweight mean-reversion signals that Graham/Munger-style agents rely on.
+> **My default lookback window:** I changed the default analysis period from 3 months to 6 months to give value-oriented agents more data to work with — short windows tend to underweight mean-reversion signals that Graham-style agents rely on heavily.
 >
-> **Agent subset I typically run:** To save on API costs I usually enable only the value-oriented agents (Graham, Munger, Buffett, Damodaran) plus the three quantitative agents (Fundamentals, Technicals, Valuation). Cathie Wood and Taleb I run separately when I want the full bull/bear contrast.
+> **Agent subset I typically run:** To save on API costs I usually enable only the value-oriented agents (Graham, Munger, Buffett, Damodaran) plus Technicals and Fundamentals. Skipping the macro/sentiment agents cuts runtime roughly in half with minimal signal loss for the tickers I care about.
