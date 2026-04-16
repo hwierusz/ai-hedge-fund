@@ -33,13 +33,11 @@ Note: the system does not actually make any trades.
 > **Agents I find most interesting to compare:** Graham vs. Wood — their signals almost always diverge, which makes for a useful stress test of the portfolio manager's decision logic.
 >
 > **Tickers I've been running this against:** NVDA, TSLA, BRK-B, and META — a mix of growth and value to keep the agent disagreements interesting.
+>
+> **My default lookback window:** I changed the default analysis period from 3 months to 6 months to give value-oriented agents more data to work with — short windows tend to disadvantage Graham-style signals.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
 ## Disclaimer
 
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No investment advice or guarantees provided
-- Creator assumes no liability for financia
+This project is for **educational and research purp
